@@ -69,37 +69,37 @@ const Animales = () =>{
                     <Image style={styles.image} source={require('../assets/images/perro.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido2.play()}>
-                    <Image style={styles.image} source={require('../assets/images/gato.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/gato.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido3.play()}>
-                    <Image style={styles.image} source={require('../assets/images/elefante.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/elefante.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido4.play()}>
-                    <Image style={styles.image} source={require('../assets/images/pollito.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/pollito.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido5.play()}>
-                    <Image style={styles.image} source={require('../assets/images/pato.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/pato.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido6.play()}>
-                    <Image style={styles.image} source={require('../assets/images/gallo.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/gallo.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido7.play()}>
-                    <Image style={styles.image} source={require('../assets/images/chango.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/chango.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido8.play()}>
-                    <Image style={styles.image} source={require('../assets/images/vaca.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/vaca.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido9.play()}>
-                    <Image style={styles.image} source={require('../assets/images/abeja.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/abeja.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido10.play()}>
-                    <Image style={styles.image} source={require('../assets/images/obeja.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/oveja.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido11.play()}>
-                    <Image style={styles.image} source={require('../assets/images/puerco.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/puerquito.png')}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={()=>sonidosCargados.sonido12.play()}>
-                    <Image style={styles.image} source={require('../assets/images/rana.jpg')}/>
+                    <Image style={styles.image} source={require('../assets/images/rana.png')}/>
                 </TouchableOpacity>
         </View>
        </ScrollView>
@@ -139,8 +139,8 @@ const styles = StyleSheet.create({
     },
     image:{
         width:100,
-        height:220,
+        height:160,
         resizeMode:"contain",
-        margin:6,
+        margin:3,
     }
 })
