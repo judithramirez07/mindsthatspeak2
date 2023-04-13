@@ -12,39 +12,39 @@ const Tips = (props) => {
                 <ScrollView>
                     <View style={{paddingHorizontal:18,backgroundColor:'#fff'}}>
                         <View style={styles.card}>
-                            <Text onPress={()=>props.navigation.navigate('tip1')} style={styles.title}>El juego del limón: manos y brazos</Text>
+                            <Text onPress={()=>props.navigation.navigate('Consejo1')} style={styles.title}>El juego del limón: manos y brazos</Text>
                             <Image style={styles.poster} source={require('../../assets/images/limon.jpg')}/>
                         </View>
                         <View style={styles.card}>
-                            <Text style={styles.title}>Respiración diafragmática</Text>
+                            <Text onPress={()=>props.navigation.navigate('Consejo2')} style={styles.title}>Respiración diafragmática</Text>
                             <Image style={styles.poster} source={require('../../assets/images/respiracion.jpg')}/>
                         </View>
                         <View style={styles.card}>
-                            <Text style={styles.title}>Ejercicios de soplo - Globo</Text>
+                            <Text onPress={()=>props.navigation.navigate('Consejo3')} style={styles.title}>Ejercicios de soplo - Globo</Text>
                             <Image style={styles.poster} source={require('../../assets/images/globo.jpg')}/>
                         </View>
                         <View style={styles.card}>
-                            <Text style={styles.title}>Ejercicios de soplo - Velas</Text>
+                            <Text onPress={()=>props.navigation.navigate('Consejo4')} style={styles.title}>Ejercicios de soplo - Velas</Text>
                             <Image style={styles.poster} source={require('../../assets/images/velas.jpg')}/>
                         </View>
                         <View style={styles.card}>
-                            <Text style={styles.title}>Ejercicios de soplo - Popote</Text>
+                            <Text onPress={()=>props.navigation.navigate('Consejo5')} style={styles.title}>Ejercicios de soplo - Popote</Text>
                             <Image style={styles.poster} source={require('../../assets/images/popote2.jpg')}/>
                         </View>
                         <View style={styles.card}>
-                            <Text style={styles.title}>Movimiento de la lengua y los labios</Text>
+                            <Text onPress={()=>props.navigation.navigate('Consejo6')} style={styles.title}>Movimiento de la lengua y los labios</Text>
                             <Image style={styles.poster} source={require('../../assets/images/lengua.jpg')}/>
                         </View>
                         <View style={styles.card}>
-                            <Text style={styles.title}>Movimiento de la lengua y nariz</Text>
+                            <Text onPress={()=>props.navigation.navigate('Consejo7')} style={styles.title}>Movimiento de la lengua y nariz</Text>
                             <Image style={styles.poster} source={require('../../assets/images/nariz.jpg')}/>
                         </View>
                         <View style={styles.card}>
-                            <Text style={styles.title}>Propiciar la conversación</Text>
+                            <Text onPress={()=>props.navigation.navigate('Consejo8')} style={styles.title}>Propiciar la conversación</Text>
                             <Image style={styles.poster} source={require('../../assets/images/conversando.jpg')}/>
                         </View>
                         <View style={styles.card}>
-                            <Text style={styles.title}>Alargar las vocales</Text>
+                            <Text onPress={()=>props.navigation.navigate('Consejo9')} style={styles.title}>Alargar las vocales</Text>
                             <Image style={styles.poster} source={require('../../assets/images/vocales.jpg')}/>
                         </View>
                     </View>
