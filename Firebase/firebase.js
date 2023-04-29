@@ -34,7 +34,9 @@ export const signin = async({email,password}) =>{
 
 //Exportacion para cerrar sesion
 export const signout = async () =>{
-   await signOut(authentication);
+  console.log("llamando a cerrar sesion");
+  console.log(authentication.currentUser);
+  await signOut(authentication);
    return {};
 };
 

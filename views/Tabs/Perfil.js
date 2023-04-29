@@ -24,6 +24,7 @@ const Perfil = () => {
     const handleLogout = async() =>{
         try {
             await signout();
+            await navigation.navigate('login');
         } catch (error) {
             console.error(error);
         }

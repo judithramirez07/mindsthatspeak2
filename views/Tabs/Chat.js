@@ -5,7 +5,7 @@ import{ WebView } from 'react-native-webview';
 
 const Chat = () =>{
     return(
-        <WebView source={{ uri: 'https://widget.kommunicate.io/chat?appId=18898cc6625c7e609fd87f9d582823fe6'  }} />
+        <WebView source={{ uri: 'https://console.dialogflow.com/api-client/demo/embedded/a58ad3dd-e14d-4cb6-864c-1ca6de60260c'  }} />
     );
 }
 export default Chat;

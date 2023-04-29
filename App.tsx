@@ -24,7 +24,7 @@ const App: () => Node = () => {
   return (
     <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="login" component={Login} options={{headerShown: false}} />
+          <Stack.Screen name="login" component={Login} options={{headerShown: false, gestureEnabled: false, headerLeft: () => <></>}} />
           <Stack.Screen name="crearCuenta" component={CrearCuenta} options={{headerShown: false}} />
           <Stack.Screen name="main" component={Main} options={{headerShown: false}}/>
           <Stack.Screen name="bottonMain" component={BottonMain} options={{headerShown: false}}/>
